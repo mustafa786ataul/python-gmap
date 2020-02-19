@@ -32,7 +32,7 @@ def getDistance():
                 status="Fail"
                 data="Invalid mode. please, use one of the following mode "+paramList[0]+" ,"+paramList[1]+" ,"+paramList[2]+" ,"+paramList[3]
                 break
-        print(mode,startLocation,endLocation,data)
+        print(mode,startLocation,endLocation,data "Hi I am Ataul")
         try:
             directions_result = gmaps.directions(startLocation,
                                         endLocation,
